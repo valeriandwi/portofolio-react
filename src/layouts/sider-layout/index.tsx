@@ -5,6 +5,7 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Sider: React.FC = () => {
   return (
@@ -14,9 +15,27 @@ const Sider: React.FC = () => {
       </p>
       <div className="text-white z-[999] block bottom-[5rem] left-[2rem] fixed">
         <div className="flex gap-8 flex-col">
-          <AiFillInstagram size={"40"} color="#71717A" />
-          <AiFillGithub size={"40"} color="#71717A" />
-          <AiFillLinkedin size={"40"} color="#71717A" />
+          <Link to="#">
+            <AiFillInstagram
+              size={"40"}
+              color="#71717A"
+              className="hover:!text-white"
+            />
+          </Link>
+          <Link to="#">
+            <AiFillGithub
+              size={"40"}
+              color="#71717A"
+              className="hover:!text-white"
+            />
+          </Link>
+          <Link to="#">
+            <AiFillLinkedin
+              size={"40"}
+              color="#71717A"
+              className="hover:!text-white"
+            />
+          </Link>
         </div>
       </div>
     </div>

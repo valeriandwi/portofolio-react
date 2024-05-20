@@ -1,5 +1,4 @@
 import React from "react";
-import "./main.css";
 import Sider from "@/layouts/sider-layout";
 import Introduction from "@/features/main/introduction";
 import Experience from "@/features/main/experience";
@@ -11,7 +10,7 @@ const MainPage: React.FC = () => {
       <Sider />
       <Introduction />
       <Experience />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
