@@ -4,18 +4,21 @@ import { Link } from "react-router-dom";
 const ContactUs: React.FC = () => {
   return (
     <div className="w-full absolute bg-black">
-      <div className="pl-32 flex flex-col space-y-4 py-8 text-white">
-        <p>
-          Email <br />
+      <div className="pl-36 flex flex-col py-8 text-white max-lg:pl-8">
+        <p className="text-2xl">
+          <span className="font-bold">Email</span> <br />
           valerian.dwi.p@gmail.com
         </p>
-        <p>
-          Location <br />
+        <p className="text-2xl">
+          <span className="font-bold">Location</span> <br />
           Jakarta, Indonesia
         </p>
-        <p>
-          LinkedIn <br />
-          <Link to="">https://</Link>
+        <p className="text-2xl">
+          <span className="font-bold">LinkedIn </span>
+          <br />
+          <Link to="https://www.linkedin.com/in/valeriandwi/">
+            https://www.linkedin.com/in/valeriandwi/
+          </Link>
         </p>
       </div>
     </div>

@@ -3,6 +3,7 @@ import Sider from "@/layouts/sider-layout";
 import Introduction from "@/features/main/introduction";
 import Experience from "@/features/main/experience";
 import Footer from "@/layouts/footer-layout";
+import BackToTop from "@/components/back-to-top";
 
 const MainPage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const MainPage: React.FC = () => {
       <Introduction />
       <Experience />
       <Footer />
+      <BackToTop />
     </div>
   );
 };
