@@ -7,11 +7,11 @@ import Footer from "@/layouts/footer-layout";
 
 const MainPage: React.FC = () => {
   return (
-    <div>
+    <div className="max-w-[100vw]">
       <Sider />
       <Introduction />
       <Experience />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

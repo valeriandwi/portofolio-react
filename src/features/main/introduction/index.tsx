@@ -1,9 +1,17 @@
 import React from "react";
+import "./index.scss";
 
 const Introduction: React.FC = () => {
   return (
-    <div className="max-w-screen h-fit">
-      <div className="gradient-bg h-[150vh] max-lg:h-[200vh]">
+    <div className="max-w-[100vw]">
+      <div className="gradient-bg py-[10rem] text-white">
+        <div className="gradients-container">
+          <div className="g1" />
+          <div className="g2" />
+          <div className="g3" />
+          <div className="g4" />
+          <div className="interactive" />
+        </div>
         <div className="flex-col flex space-y-[65vh] max-lg:space-y-[100vh]">
           <section className="text-container justify-center lg:pl-[10rem] max-lg:pl-[2rem] gap-8">
             <h2 className="text-6xl max-lg:text-4xl">Hi, My Name is</h2>
@@ -28,13 +36,6 @@ const Introduction: React.FC = () => {
               diving into the latest technologies
             </h3>
           </section>
-        </div>
-        <div className="gradients-container h-screen">
-          <div className="g1"></div>
-          <div className="g2"></div>
-          <div className="g3"></div>
-          <div className="g4"></div>
-          <div className="interactive"></div>
         </div>
       </div>
     </div>

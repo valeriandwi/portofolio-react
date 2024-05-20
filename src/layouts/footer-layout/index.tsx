@@ -3,7 +3,7 @@ import React from "react";
 const Footer: React.FC = () => {
   return (
     <>
-      <div className="relative flex w-full bg-black pt-4">
+      <div className="relative flex max-w-[100vw] bg-black pt-4">
         <div className="animate-marquee whitespace-nowrap relative">
           <span className="text-white text-6xl font-bold mr-8">
             Get in Touch
