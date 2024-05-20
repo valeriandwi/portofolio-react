@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react()],
-    base: env.VITE_UI_BASE_PATH || "",
+    base: env.VITE_UI_BASE_PATH || "./",
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src/"),
