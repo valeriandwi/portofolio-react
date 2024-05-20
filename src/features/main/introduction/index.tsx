@@ -13,13 +13,11 @@ const Introduction: React.FC = () => {
           <div className="interactive" />
         </div>
         <section className="flex justify-center flex-col gap-4 max-lg:gap-2 lg:pl-[10rem] max-lg:pl-[2rem] h-full">
-          <h2 className="text-6xl max-lg:text-6xl sm:leading-[0]">Hi, I'm</h2>
-          <h1 className="text-8xl font-bold max-lg:text-6xl sm:leading-[0]">
+          <h2 className="text-6xl max-lg:text-6xl">Hi, I'm</h2>
+          <h1 className="text-8xl font-bold max-lg:text-6xl">
             Valerian Dwi Purnomo
           </h1>
-          <h3 className="text-4xl max-lg:text-2xl sm:leading-[0]">
-            Frontend Developer
-          </h3>
+          <h3 className="text-4xl max-lg:text-2xl">Frontend Developer</h3>
         </section>
         {/* <section className="text-container justify-center lg:pl-[10rem] pr-[12rem] max-lg:pl-[2rem] max-lg:pr-[4rem]">
             <h2 className="text-2xl max-lg:text-2xl mb-4">About Me</h2>

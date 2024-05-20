@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ContactUs: React.FC = () => {
   return (
     <div className="w-full absolute bg-black">
-      <div className="pl-36 flex flex-col py-8 text-white max-lg:pl-8">
+      <div className="pl-36 flex flex-col space-y-8 py-8 text-white max-lg:pl-8">
         <p className="text-2xl">
           <span className="font-bold">Email</span> <br />
           valerian.dwi.p@gmail.com

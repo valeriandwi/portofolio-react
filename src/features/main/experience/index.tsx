@@ -23,10 +23,8 @@ const Experience: React.FC = () => {
             <div className="flex flex-row justify-between w-3/5 max-lg:w-full">
               <h1 className="text-3xl text-gray font-bold">{year}</h1>
               <div className="flex flex-col">
-                <p className="text-3xl leading-[0] text-white font-bold">
-                  {jobTitle}
-                </p>
-                <p className="text-xl leading-[0] text-gray">{company}</p>
+                <p className="text-3xl  text-white font-bold">{jobTitle}</p>
+                <p className="text-xl  text-gray">{company}</p>
               </div>
             </div>
             <hr className="mt-8 mb-8" />
