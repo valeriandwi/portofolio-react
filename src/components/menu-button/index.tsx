@@ -8,13 +8,20 @@ interface MenuProps {
 const MenuButton: React.FC<MenuProps> = ({ setOpenMenu }) => {
   return (
     <>
-      <div className="top-8 fixed right-16 z-[9999]">
+      <div className="absolute flex justify-end z-[9999] max-lg:top-8 max-lg:right-8 lg:hidden">
         <AiOutlineMenu
           color="white"
           size="normal"
-          className="h-[40px] max-lg:h-[60px] cursor-pointer"
+          className="h-[40px] max-lg:h-[30px] cursor-pointer"
           onClick={() => setOpenMenu((prevState: boolean) => !prevState)}
         />
+      </div>
+      <div className="absolute flex w-full px-8 py-8 justify-end z-[9999] text-white max-lg:hidden space-x-8">
+        <div className="font-bold hover:underline cursor-pointer">ABOUT</div>
+        <div className="font-bold hover:underline cursor-pointer">PROJECTS</div>
+        <div className="font-bold hover:underline cursor-pointer">
+          CONTACT ME
+        </div>
       </div>
     </>
   );

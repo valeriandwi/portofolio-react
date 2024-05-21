@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Sider: React.FC = () => {
   return (
     <div className="max-lg:hidden">
-      <p className="top-[2rem] left-[2rem] fixed text-white z-[999]">
+      <p className="top-[2rem] left-[2rem] fixed text-white z-[99]">
         <AiFillAliwangwang size="40" color="#fff" />
       </p>
       <div className="text-white z-[999] block bottom-[5rem] left-[2rem] fixed">
