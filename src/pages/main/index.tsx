@@ -9,7 +9,6 @@ const MainPage: React.FC = () => {
     <MainLayout>
       <Introduction />
       <Experience />
-      <Footer />
     </MainLayout>
   );
 };

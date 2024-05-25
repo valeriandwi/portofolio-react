@@ -5,7 +5,7 @@ import GetInTouch from "./components/get-in-touch";
 const Footer: React.FC = () => {
   return (
     <>
-      {/* <GetInTouch /> */}
+      <GetInTouch />
       <ContactUs />
     </>
   );

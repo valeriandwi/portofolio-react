@@ -3,6 +3,7 @@ import Sider from "./sider-layout";
 import BackToTop from "@/components/back-to-top";
 import MenuButton from "@/components/menu-button";
 import Menu from "./menu";
+import Footer from "../footer-layout";
 
 interface MainLayoutProps {
   children: React.ReactNode;
@@ -16,6 +17,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       <MenuButton setOpenMenu={setOpenMenu} />
       <Sider />
       {openMenu ? <Menu /> : <>{children}</>}
+      <Footer />
       <BackToTop />
     </div>
   );

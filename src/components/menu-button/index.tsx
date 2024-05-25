@@ -17,10 +17,10 @@ const MenuButton: React.FC<MenuProps> = ({ setOpenMenu }) => {
         />
       </div>
       <div className="absolute flex w-full px-8 py-8 justify-end z-[9999] text-white max-lg:hidden space-x-8">
-        <div className="font-bold hover:underline cursor-pointer">ABOUT</div>
+        <div className="font-bold hover:underline cursor-pointer">ABOUT ME</div>
         <div className="font-bold hover:underline cursor-pointer">PROJECTS</div>
         <div className="font-bold hover:underline cursor-pointer">
-          CONTACT ME
+          CERTIFICATES
         </div>
       </div>
     </>
