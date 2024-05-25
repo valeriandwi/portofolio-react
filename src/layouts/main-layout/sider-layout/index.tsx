@@ -15,21 +15,21 @@ const Sider: React.FC = () => {
       </p>
       <div className="text-white z-[999] block bottom-[5rem] left-[2rem] fixed">
         <div className="flex gap-8 flex-col">
-          <Link to="#">
+          <Link to="https://www.instagram.com/valerian_dwi/">
             <AiFillInstagram
               size={"40"}
               color="#71717A"
               className="hover:!text-white"
             />
           </Link>
-          <Link to="#">
+          <Link to="https://github.com/valeriandwi">
             <AiFillGithub
               size={"40"}
               color="#71717A"
               className="hover:!text-white"
             />
           </Link>
-          <Link to="#">
+          <Link to="https://www.linkedin.com/in/valeriandwi/">
             <AiFillLinkedin
               size={"40"}
               color="#71717A"
