@@ -11,6 +11,21 @@
   --blending: hard-light;
 }
 
+@media all and (max-width: 800px) {
+  :root {
+    --color-bg1: #000;
+    --color-bg2: #020202;
+    --color1: 188, 63, 195;
+    --color2: 246, 121, 11;
+    --color3: 110, 165, 175;
+    --color4: 200, 50, 50;
+    --color5: 180, 180, 50;
+    --color-interactive: 140, 100, 255;
+    --circle-size: 100vw;
+    --blending: hard-light;
+  }
+}
+
 @keyframes moveVertical {
   0%,
   100% {

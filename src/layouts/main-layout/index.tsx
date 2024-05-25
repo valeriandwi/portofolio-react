@@ -16,9 +16,14 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     <div className="max-w-[100vw] overflow-hidden">
       <MenuButton setOpenMenu={setOpenMenu} />
       <Sider />
-      {openMenu ? <Menu /> : <>{children}</>}
-      <Footer />
-      <BackToTop />
+      {openMenu ? (
+        <Menu />
+      ) : (
+        <>
+          {children} <Footer />
+          <BackToTop />
+        </>
+      )}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 interface MenuProps {
   setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
@@ -17,10 +18,14 @@ const MenuButton: React.FC<MenuProps> = ({ setOpenMenu }) => {
         />
       </div>
       <div className="absolute flex w-full px-8 py-8 justify-end z-[9999] text-white max-lg:hidden space-x-8">
-        <div className="font-bold hover:underline cursor-pointer">ABOUT ME</div>
-        <div className="font-bold hover:underline cursor-pointer">PROJECTS</div>
         <div className="font-bold hover:underline cursor-pointer">
-          CERTIFICATES
+          <Link to="/">ABOUT ME</Link>
+        </div>
+        <div className="font-bold hover:underline cursor-pointer">
+          <Link to="/portofolio">PROJECTS</Link>
+        </div>
+        <div className="font-bold hover:underline cursor-pointer">
+          <Link to="/certificate">CERTIFICATES</Link>
         </div>
       </div>
     </>
