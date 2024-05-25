@@ -38,7 +38,7 @@ const Portofolio: React.FC = () => {
         <h1 className="text-white text-6xl font-bold mr-16 mb-8 max-lg:text-3xl max-lg:mb-4">
           Projects
         </h1>
-        <div className="w-[85vw] max-lg:w-[90vw]">
+        <div className="w-[85vw] max-lg:w-screen max-lg:pr-[4rem]">
           {myProjects.map(({ projectName, company }) => (
             <>
               <div className="flex flex-row justify-between w-full">
@@ -55,11 +55,11 @@ const Portofolio: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="bg-[#18181B] flex pl-[8rem] max-lg:pl-[2rem] flex-col py-16">
+      <div className="bg-[#18181B] flex pl-[8rem] max-lg:pl-[2rem]  flex-col py-16">
         <h1 className="text-white text-4xl font-bold mr-16 mb-16 max-lg:text-2xl">
           Showcase
         </h1>
-        <div className="w-[85vw] max-lg:w-[90vw] max-md:w-[90vw]  slider-container">
+        <div className="w-[85vw] max-lg:w-[90vw] max-md:w-[90vw] max-lg:pr-[2rem]  slider-container">
           <Slider {...settings}>
             <div className="w-full h-[12rem] justify-center cursor-pointer hover:opacity-50">
               <img
