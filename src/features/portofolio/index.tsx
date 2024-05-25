@@ -1,6 +1,5 @@
 import { myProjects } from "@/constants";
 import React from "react";
-import { AiFillEye } from "react-icons/ai";
 import Slider from "react-slick";
 
 const Portofolio: React.FC = () => {
